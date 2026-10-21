@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FunderBook Privacy Policy</title>
+<style>
+:root{color-scheme:light dark;--bg:#fff;--fg:#1c1b1a;--muted:#5f5b57;--line:#e4e0db}
+@media (prefers-color-scheme:dark){:root{--bg:#161514;--fg:#f0ede9;--muted:#a39e98;--line:#2e2c2a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,system-ui,sans-serif}
+main{max-width:42rem;margin:0 auto;padding:2rem 1rem 4rem}
+nav{display:flex;gap:1rem;margin-bottom:2rem;border-bottom:1px solid var(--line);padding-bottom:1rem}
+a{color:inherit}
+h1{font-size:1.9rem;line-height:1.2}
+h2{font-size:1.25rem;margin-top:2rem}
+.meta{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="/">FunderBook</a><a href="/privacy/">Privacy</a><a href="/support/">Support</a></nav>
+<h1>FunderBook Privacy Policy</h1>
+<p class="meta">Effective October 10, 2026 · Version 2026-10-10</p>
+<h2>Who operates FunderBook</h2>
+<p>FunderBook is operated by Josh Funderburk in West Valley City, Utah, United States. This policy explains how information is handled when you use the FunderBook app. For privacy questions or requests, email joshfunderburk91@gmail.com.</p>
+<h2>Information we collect and why</h2>
+<p>Account information: We process your email address, authentication information, display name, and records of your agreement to our policies to create, secure, and manage your account. Our authentication service processes your password when you sign in or change it.</p>
+<p>Book information: We store the information you enter about books, including reading status, ratings, notes, owned copies, reading platforms, wishlist selections, and your changes to book details. We use this information to provide your Library, Bookshelf, and Trophy Hunt.</p>
+<p>Searches: Book and series searches, including scanned ISBNs, are sent to our backend and catalog provider to retrieve results.</p>
+<p>Usage information: To understand how well search, barcode scanning, and edition selection work, the app records what happens on the Add screen: the search text or scanned ISBN and how many results it returned, which result you opened, including our catalog provider's identifier for that book, and where it appeared in the list, and whether and how you then saved a book. These records are sent to PostHog, our analytics provider, with the app version and the time they were sent. They do not include your account, email address, or a device identifier, and each time the app is opened it starts as a new anonymous visitor. We do not use these records to identify you. Search text is stored as you typed it, so please do not enter personal information in the search box.</p>
+<p>Technical information: Our service providers process connection and request information, which can include IP addresses, timestamps, and technical logs, to deliver, secure, and troubleshoot the service.</p>
+<p>Support: If you contact us, we receive your email address and the information you include, and use it to respond to your request.</p>
+<h2>Camera and device storage</h2>
+<p>If you choose to scan a book's barcode, FunderBook requests camera permission. The scanner reads the barcode on your device and sends a valid ISBN for lookup. It does not upload photographs or video. You can revoke camera permission in your device settings and search by typing instead.</p>
+<p>FunderBook stores sign-in information on your device to maintain your session. Signing out clears the app's saved authentication session.</p>
+<h2>Services that receive information</h2>
+<p>We use Supabase for account authentication, database storage, and backend functions. Our backend uses Hardcover to fulfill book and series searches. These services receive information needed to perform those functions.</p>
+<p>We use PostHog to receive the usage information described above and application error reports as described below. Providers serving book-cover images also receive connection information when your device loads those images. If you follow a link to an external service, that service handles information under its own privacy policy.</p>
+<p>We may disclose information when required by law or when reasonably necessary to investigate abuse or protect the security and rights of our users and the service.</p>
+<h2>Error reporting</h2>
+<p>When error reporting is enabled in a release build, we use PostHog to help identify and fix application errors. The app filters reports to retain technical event information, the app version, and the locations in the app's code where errors occurred. The app sends each location as a bundle file name, a line and column, and an identifier of the app build. PostHog then uses a source map we upload, which maps the built app back to its source code, to look up the names of the file and function at each location, and stores those names with the report. The app removes error-message text and excludes account details, reading notes, request contents, and attachments from those reports.</p>
+<p>Our PostHog configuration does not record screens, screenshots, or session replays, does not link anything it receives to you or your account, and does not enable performance tracing or native crash reporting. An error report can still cause PostHog to create an empty anonymous record for that launch of the app. It has no properties, carries a random identifier that changes each time the app opens, and is not linked to your account, so it cannot be tied to you. Usage records from the Add screen do not create one. PostHog still receives connection information when usage records and error reports are transmitted. We have set it to discard IP addresses and not to look up your location.</p>
+<h2>Advertising and sale of information</h2>
+<p>FunderBook does not display advertisements or sell your personal information. We do not share personal information for targeted advertising.</p>
+<h2>Data retention and deletion</h2>
+<p>We retain your account and saved book information until you remove it or delete your account. You can delete your account through Settings → Delete account. Account deletion removes your account, profile, and associated Library, Bookshelf, and Trophy Hunt records from our active database.</p>
+<p>Usage records from the Add screen and error reports are kept by PostHog for one year under its current free plan. Because they are not linked to an account, deleting your account does not remove them sooner, and we cannot identify which records came from you. Usage records collected under the previous version of this policy were stored in our own database; they are deleted when that storage is removed, and no later than three months after they were recorded.</p>
+<p>API and database logs have a one-day retention period under our current Supabase hosting plan. Error reports collected by Sentry, our previous error-reporting provider, are deleted when we close that account, and no later than 90 days after they were collected.</p>
+<p>We do not create separate database backups. Our hosting provider may preserve data for recovery when the service's database project is paused; pausing is not deletion.</p>
+<p>We keep support correspondence as needed to resolve your request and address related follow-up. Contact us if you would like that correspondence deleted. Information may be retained longer when required by law.</p>
+<h2>Your choices and privacy requests</h2>
+<p>You can update information using the app's controls, remove saved book records, revoke camera permission, or delete your account. You can also email joshfunderburk91@gmail.com to request access, correction, or deletion of your personal information, including if you cannot access the app. We may ask for information needed to verify that the request relates to your account.</p>
+<h2>Children</h2>
+<p>FunderBook is intended for people aged 13 and older. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided personal information, contact joshfunderburk91@gmail.com so we can investigate and remove it.</p>
+<h2>Changes to this policy</h2>
+<p>We will publish updates to this policy with a revised effective date. The app will present updated policies for your review when its policy version changes. You can always read the current policy through the app's Privacy Policy link.</p>
+</main>
+</body>
+</html>
